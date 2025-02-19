@@ -1,0 +1,4 @@
+*.bin
+*.vsidx
+WriteHeartHub/.vs/WriteHeartHub/v17/.suo
+WriteHeartHub/Application/obj/project.assets.json

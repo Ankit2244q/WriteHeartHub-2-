@@ -1,0 +1,17 @@
+﻿using Core_Doman;
+using Core_Doman.Entities;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+//Application.Interfaceses
+namespace Application.Interfaces
+{
+    public interface IShayriRepository
+    {
+        //   Task<IEnumerable<Shayri>> GetShayriListAsync();
+        Task<List<Shayri>> GetAllShayriAsync();
+    }
+}

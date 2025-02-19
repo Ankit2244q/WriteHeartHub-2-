@@ -1,0 +1,293 @@
+{
+  "format": 1,
+  "restore": {
+    "A:\\_Documents\\Projects\\WriteHeartHub(2)\\WriteHeartHub\\WriteHeartHub\\WriteHeartHub.csproj": {}
+  },
+  "projects": {
+    "A:\\_Documents\\Projects\\WriteHeartHub(2)\\WriteHeartHub\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "A:\\_Documents\\Projects\\WriteHeartHub(2)\\WriteHeartHub\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "A:\\_Documents\\Projects\\WriteHeartHub(2)\\WriteHeartHub\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Ankit\\.nuget\\packages\\",
+        "outputPath": "A:\\_Documents\\Projects\\WriteHeartHub(2)\\WriteHeartHub\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ankit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "A:\\_Documents\\Projects\\WriteHeartHub(2)\\WriteHeartHub\\Core Doman\\Core Doman.csproj": {
+                "projectPath": "A:\\_Documents\\Projects\\WriteHeartHub(2)\\WriteHeartHub\\Core Doman\\Core Doman.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "A:\\_Documents\\Projects\\WriteHeartHub(2)\\WriteHeartHub\\Core Doman\\Core Doman.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "A:\\_Documents\\Projects\\WriteHeartHub(2)\\WriteHeartHub\\Core Doman\\Core Doman.csproj",
+        "projectName": "Core Doman",
+        "projectPath": "A:\\_Documents\\Projects\\WriteHeartHub(2)\\WriteHeartHub\\Core Doman\\Core Doman.csproj",
+        "packagesPath": "C:\\Users\\Ankit\\.nuget\\packages\\",
+        "outputPath": "A:\\_Documents\\Projects\\WriteHeartHub(2)\\WriteHeartHub\\Core Doman\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ankit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "A:\\_Documents\\Projects\\WriteHeartHub(2)\\WriteHeartHub\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "A:\\_Documents\\Projects\\WriteHeartHub(2)\\WriteHeartHub\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "A:\\_Documents\\Projects\\WriteHeartHub(2)\\WriteHeartHub\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Ankit\\.nuget\\packages\\",
+        "outputPath": "A:\\_Documents\\Projects\\WriteHeartHub(2)\\WriteHeartHub\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ankit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "A:\\_Documents\\Projects\\WriteHeartHub(2)\\WriteHeartHub\\Application\\Application.csproj": {
+                "projectPath": "A:\\_Documents\\Projects\\WriteHeartHub(2)\\WriteHeartHub\\Application\\Application.csproj"
+              },
+              "A:\\_Documents\\Projects\\WriteHeartHub(2)\\WriteHeartHub\\Core Doman\\Core Doman.csproj": {
+                "projectPath": "A:\\_Documents\\Projects\\WriteHeartHub(2)\\WriteHeartHub\\Core Doman\\Core Doman.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.66, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "A:\\_Documents\\Projects\\WriteHeartHub(2)\\WriteHeartHub\\WriteHeartHub\\WriteHeartHub.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "A:\\_Documents\\Projects\\WriteHeartHub(2)\\WriteHeartHub\\WriteHeartHub\\WriteHeartHub.csproj",
+        "projectName": "WriteHeartHub",
+        "projectPath": "A:\\_Documents\\Projects\\WriteHeartHub(2)\\WriteHeartHub\\WriteHeartHub\\WriteHeartHub.csproj",
+        "packagesPath": "C:\\Users\\Ankit\\.nuget\\packages\\",
+        "outputPath": "A:\\_Documents\\Projects\\WriteHeartHub(2)\\WriteHeartHub\\WriteHeartHub\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ankit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "A:\\_Documents\\Projects\\WriteHeartHub(2)\\WriteHeartHub\\Application\\Application.csproj": {
+                "projectPath": "A:\\_Documents\\Projects\\WriteHeartHub(2)\\WriteHeartHub\\Application\\Application.csproj"
+              },
+              "A:\\_Documents\\Projects\\WriteHeartHub(2)\\WriteHeartHub\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "A:\\_Documents\\Projects\\WriteHeartHub(2)\\WriteHeartHub\\Infrastructure\\Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
