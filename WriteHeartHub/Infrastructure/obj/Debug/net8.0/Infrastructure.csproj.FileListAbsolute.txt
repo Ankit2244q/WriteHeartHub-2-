@@ -32,3 +32,4 @@ A:\_Documents\Projects\WriteHeartHub(2)\WriteHeartHub\Infrastructure\obj\Debug\n
 A:\_Documents\Projects\WriteHeartHub(2)\WriteHeartHub\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
 A:\_Documents\Projects\WriteHeartHub(2)\WriteHeartHub\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 A:\_Documents\Projects\WriteHeartHub(2)\WriteHeartHub\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+A:\_Documents\Projects\WriteHeartHub(2)\WriteHeartHub\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json

@@ -8,16 +8,16 @@ using System.Threading.Tasks;
 
 namespace Application.Services
 {
-    public class ShayriService : IShayriService
+    public class ShayriService : IUserContentService
     {
-        private readonly IShayriRepository _shayriRepository;
+        private readonly IUserContentRepository _shayriRepository;
 
-        public ShayriService(IShayriRepository shayriRepository)
+        public ShayriService(IUserContentRepository shayriRepository)
         {
             _shayriRepository = shayriRepository;
         }
 
-        public async Task<List<Shayri>> GetAllShayriAsync()  // ✅ Correct return type
+        public async Task<List<UserContent>> GetAllShayriAsync()  // ✅ Correct return type
         {
             return await _shayriRepository.GetAllShayriAsync();
         }

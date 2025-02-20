@@ -20,3 +20,5 @@ A:\_Documents\Projects\WriteHeartHub(2)\WriteHeartHub\Core Doman\obj\Debug\net8.
 A:\_Documents\Projects\WriteHeartHub(2)\WriteHeartHub\Core Doman\obj\Debug\net8.0\refint\Core Doman.dll
 A:\_Documents\Projects\WriteHeartHub(2)\WriteHeartHub\Core Doman\obj\Debug\net8.0\Core Doman.pdb
 A:\_Documents\Projects\WriteHeartHub(2)\WriteHeartHub\Core Doman\obj\Debug\net8.0\ref\Core Doman.dll
+A:\_Documents\Projects\WriteHeartHub(2)\WriteHeartHub\Core Doman\obj\Debug\net8.0\Core Doman.csproj.AssemblyReference.cache
+A:\_Documents\Projects\WriteHeartHub(2)\WriteHeartHub\Core Doman\obj\Debug\net8.0\Core Doman.sourcelink.json

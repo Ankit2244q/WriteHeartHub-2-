@@ -8,9 +8,9 @@ namespace WriteHeartHub.Controllers
     [ApiController]
     public class ShayriController : ControllerBase
     {
-        private readonly IShayriService _shayriService;
+        private readonly IUserContentService _shayriService;
 
-        public ShayriController(IShayriService shayriService)
+        public ShayriController(IUserContentService shayriService)
         {
             _shayriService = shayriService;
         }

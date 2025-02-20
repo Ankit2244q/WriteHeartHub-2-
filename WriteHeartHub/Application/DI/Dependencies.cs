@@ -9,7 +9,7 @@ namespace Infrastructure.DI
 {
     public static class Dependencies
     {
-        public static IServiceCollection ApplicationDI(this IServiceCollection service)
+        public static IServiceCollection ApplicationLayerDI(this IServiceCollection service)
         {
             return service;
         }

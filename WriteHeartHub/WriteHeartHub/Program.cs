@@ -16,8 +16,8 @@ builder.Services.InfrastructureDI();
 builder.Services.CoreDI();
 builder.Services.WriteHeartApiDi();
 // Register Shayri services and repositories
-builder.Services.AddScoped<IShayriRepository, ShayriRepository>();
-builder.Services.AddScoped<IShayriService, ShayriService>();
+//builder.Services.AddScoped<IShayriRepository, ShayriRepository>();
+//builder.Services.AddScoped<IUserContentService, ShayriService>();
 
 // Add database connection string
 builder.Services.AddSingleton<IConfiguration>(builder.Configuration);

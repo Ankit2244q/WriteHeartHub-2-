@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace Application.Interfaces
 {
-    public interface IShayriService
+    public interface IUserContentService
     {
-        Task<List<Shayri>> GetAllShayriAsync();
+        Task<List<UserContent>> GetAllShayriAsync();
     }
 }

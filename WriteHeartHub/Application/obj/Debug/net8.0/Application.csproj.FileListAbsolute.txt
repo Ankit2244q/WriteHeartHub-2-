@@ -28,3 +28,4 @@ A:\_Documents\Projects\WriteHeartHub(2)\WriteHeartHub\Application\obj\Debug\net8
 A:\_Documents\Projects\WriteHeartHub(2)\WriteHeartHub\Application\obj\Debug\net8.0\refint\Application.dll
 A:\_Documents\Projects\WriteHeartHub(2)\WriteHeartHub\Application\obj\Debug\net8.0\Application.pdb
 A:\_Documents\Projects\WriteHeartHub(2)\WriteHeartHub\Application\obj\Debug\net8.0\ref\Application.dll
+A:\_Documents\Projects\WriteHeartHub(2)\WriteHeartHub\Application\obj\Debug\net8.0\Application.sourcelink.json

@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 //Application.Interfaceses
 namespace Application.Interfaces
 {
-    public interface IShayriRepository
+    public interface IUserContentRepository
     {
         //   Task<IEnumerable<Shayri>> GetShayriListAsync();
-        Task<List<Shayri>> GetAllShayriAsync();
+        Task<List<UserContent>> GetAllShayriAsync();
     }
 }

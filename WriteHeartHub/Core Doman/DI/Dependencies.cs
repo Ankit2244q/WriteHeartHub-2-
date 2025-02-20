@@ -7,8 +7,11 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.DI
 {
-    public static IServiceCollection CoreDI(this IServiceCollection service)
+    public static class Dependencies
     {
-        return service;
+        public static IServiceCollection CoreDI(this IServiceCollection service)
+        {
+            return service;
+        }
     }
 }

@@ -9,9 +9,10 @@ namespace Infrastructure.DI
 {
     public static class Dependencies
     {
-        public static IServiceCollection InfraDI(this IServiceCollection service)
+        public static IServiceCollection WriteHeartApiDi(this IServiceCollection services)
         {
-            return service;
+            services.ApplicationLayerDI().InfrastructureDI();
+            return services;
         }
     }
 }

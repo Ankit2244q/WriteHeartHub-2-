@@ -174,3 +174,4 @@ A:\_Documents\Projects\WriteHeartHub(2)\WriteHeartHub\WriteHeartHub\obj\Debug\ne
 A:\_Documents\Projects\WriteHeartHub(2)\WriteHeartHub\WriteHeartHub\obj\Debug\net8.0\WriteHeartHub.pdb
 A:\_Documents\Projects\WriteHeartHub(2)\WriteHeartHub\WriteHeartHub\obj\Debug\net8.0\WriteHeartHub.genruntimeconfig.cache
 A:\_Documents\Projects\WriteHeartHub(2)\WriteHeartHub\WriteHeartHub\obj\Debug\net8.0\ref\WriteHeartHub.dll
+A:\_Documents\Projects\WriteHeartHub(2)\WriteHeartHub\WriteHeartHub\obj\Debug\net8.0\WriteHeartHub.sourcelink.json
