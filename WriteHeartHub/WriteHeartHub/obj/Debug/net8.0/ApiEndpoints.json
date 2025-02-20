@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "WriteHeartHub.Controllers.ShayriController",
+    "ContainingType": "WriteHeartHub.Controllers.UserContentController",
     "Method": "GetAllShayri",
-    "RelativePath": "api/Shayri",
+    "RelativePath": "api/UserContent",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -10,24 +10,24 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WriteHeartHub.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
+    "ContainingType": "WriteHeartHub.Controllers.UserContentController",
+    "Method": "AddUserContent",
+    "RelativePath": "api/UserContent",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[WriteHeartHub.WeatherForecast, WriteHeartHub, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "post",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "type",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
-    "EndpointName": "GetWeatherForecast"
+    "ReturnTypes": []
   }
 ]

@@ -22,7 +22,7 @@ namespace WriteHeartHub.Controllers
             return Ok(shayriList);
         }
 
-        [HttpGet]
+        [HttpPost]
         public async Task<IActionResult> AddUserContent(string post,  int type = 1)
         {
             var shayriList = await _userContent.AddContentAsync(post , type);
