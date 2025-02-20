@@ -1,3 +1,4 @@
+using Application.DI;
 using Application.Interfaces;
 using Application.Services;
 using Infrastructure.DI;

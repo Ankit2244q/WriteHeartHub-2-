@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WriteHeartHub")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54f0bef03627614273a2bdc7170649674a097c10")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0dca90162890fa4d8edde571acd586870d1b8623")]
 [assembly: System.Reflection.AssemblyProductAttribute("WriteHeartHub")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WriteHeartHub")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
