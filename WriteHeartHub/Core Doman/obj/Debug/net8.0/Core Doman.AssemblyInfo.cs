@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Core Doman")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9109a6a6af47736aad1f3a5f6b35998a349dd7e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e3a76c49a543ddf6f8f41cc737f08143fbb4e3e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Core Doman")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Core Doman")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

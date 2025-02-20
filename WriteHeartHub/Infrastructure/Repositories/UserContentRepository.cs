@@ -19,6 +19,8 @@ namespace Infrastructure.Repositories
         {
             _configuration = configuration;
         }
+
+       
         public async Task<List<UserContent>> GetAllShayriAsync()  // ✅ Ensure correct return type
         {
             using (var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection")))
@@ -26,6 +28,11 @@ namespace Infrastructure.Repositories
                 var result = await connection.QueryAsync<UserContent>("SELECT * FROM UserContent WHERE Content IS NOT NULL");
                 return result.ToList(); // ✅ Convert to List<Shayri>
             }
+        }
+
+        Task<UserContent> IUserContentRepository.AddUserShayriAsync(string content, int type)
+        {
+            throw new NotImplementedException();
         }
     }
 }

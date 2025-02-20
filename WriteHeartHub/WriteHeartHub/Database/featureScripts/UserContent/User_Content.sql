@@ -37,3 +37,25 @@ INSERT INTO ContentType (Id, Name) VALUES
 (3, 'Thought'),
 (4, 'Quote'),
 (5, 'Lyrics');
+GO
+
+
+-----------User Post SP Starts --------------------
+CREATE OR ALTER PROCEDURE usp_AddUserPost
+    @UserId NVARCHAR(50) = '123',
+    @Type NVARCHAR(20) = 'Default',
+    @Content NVARCHAR(MAX)
+AS
+BEGIN
+    SET NOCOUNT ON;
+    
+    INSERT INTO UserContent (UserId, Type, Content, CreatedAt, UpdatedAt)
+    VALUES (@UserId, @Type, @Content, GETUTCDATE(), NULL);
+
+    SELECT SCOPE_IDENTITY() AS Id;
+END
+GO;
+
+
+
+-----------User Post SP Ends --------------------
