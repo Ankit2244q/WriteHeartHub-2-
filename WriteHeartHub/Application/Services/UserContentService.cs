@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace Application.Services
 {
-    public class ShayriService : IUserContentService
+    public class UserContentService : IUserContentService
     {
         private readonly IUserContentRepository _shayriRepository;
 
-        public ShayriService(IUserContentRepository shayriRepository)
+        public UserContentService(IUserContentRepository shayriRepository)
         {
             _shayriRepository = shayriRepository;
         }
