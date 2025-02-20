@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "k5bywjOjjNQ=",
+  "dgSpecHash": "DyziJi83DjA=",
   "success": true,
   "projectFilePath": "A:\\_Documents\\Projects\\WriteHeartHub(2)\\WriteHeartHub\\Core Doman\\Core Doman.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Ankit\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.2\\microsoft.extensions.dependencyinjection.abstractions.9.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

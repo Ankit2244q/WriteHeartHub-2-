@@ -1,5 +1,6 @@
 using Application.Interfaces;
 using Application.Services;
+using Infrastructure.DI;
 using Infrastructure.Repositories;
 
 
@@ -10,7 +11,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
+builder.Services.ApplicationLayerDI();
+builder.Services.InfrastructureDI();
+builder.Services.CoreDI();
+builder.Services.WriteHeartApiDi();
 // Register Shayri services and repositories
 builder.Services.AddScoped<IShayriRepository, ShayriRepository>();
 builder.Services.AddScoped<IShayriService, ShayriService>();
