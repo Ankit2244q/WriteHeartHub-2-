@@ -17,19 +17,21 @@ namespace Application.Services
             _userRepository = userRepository;
         }
 
-        public async Task<UserContent> AddContentAsync(string post, int type,int Id)
+        public async Task<UserContent> AddUserContentAsync(string post, int type,int Id)
         {
-          return await _userRepository.AddUserShayriAsync(post, type,Id);
+          return await _userRepository.AddUserContentAsync(post, type,Id);
         }
 
-        public async Task<List<UserContent>> GetAllShayriAsync()  // ✅ Correct return type
+        public async Task<List<UserContent>> GetAllContentAsync()  // ✅ Correct return type
         {
-            return await _userRepository.GetAllShayriAsync();
+            return await _userRepository.GetAllContentAsync();
         }
 
         public async Task<UserContent> DeleteUserContentAsync(int id) 
         {
             return await _userRepository.DeleteUserContentAsync(id);
         }
+
+    
     }
 }

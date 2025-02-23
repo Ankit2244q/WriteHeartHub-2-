@@ -27,7 +27,7 @@ namespace WriteHeartHub.Controllers
         {
             try
             {
-                var shayriList = await _userContent.GetAllShayriAsync();
+                var shayriList = await _userContent.GetAllContentAsync();
 
                 if (shayriList == null || !shayriList.Any())
                 {
@@ -59,7 +59,7 @@ namespace WriteHeartHub.Controllers
             try
             {
                 // If Id is null, pass it as 'default(int)' or use null-coalescing operator (?? 0)
-                var shayri = await _userContent.AddContentAsync(post, type, Id ?? 0);
+                var shayri = await _userContent.AddUserContentAsync(post, type, Id ?? 0);
 
                 if (shayri == null)
                 {
