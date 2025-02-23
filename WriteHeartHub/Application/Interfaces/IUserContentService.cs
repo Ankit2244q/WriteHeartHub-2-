@@ -10,7 +10,9 @@ namespace Application.Interfaces
     public interface IUserContentService
     {
         Task<List<UserContent>> GetAllShayriAsync();
-        Task<UserContent> AddContentAsync(string post , int type);
+        Task<UserContent> AddContentAsync(string post , int type,int Id);
+
+        Task<UserContent> DeleteUserContentAsync(int id);
 
     }
 }

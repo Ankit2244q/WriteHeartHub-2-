@@ -55,7 +55,39 @@ BEGIN
     SELECT SCOPE_IDENTITY() AS Id;
 END
 GO;
+--------------------- New Modify This Query Here Use Insert/Update ------------------------
+CREATE OR ALTER PROCEDURE usp_AddUserPost
+    @Id INT = NULL, -- If NULL, insert a new record
+    @UserId NVARCHAR(50),
+    @Type NVARCHAR(20) = 'Default',
+    @Content NVARCHAR(MAX)
+AS
+BEGIN
+    SET NOCOUNT ON;
+    
+    IF @Id IS NOT NULL AND EXISTS (SELECT 1 FROM UserContent WHERE Id = @Id)
+    BEGIN
+        -- Update existing record
+        UPDATE UserContent
+        SET UserId = @UserId,
+            Type = @Type,
+            Content = @Content,
+            UpdatedAt = GETUTCDATE()
+        WHERE Id = @Id;
 
+        -- Return the updated ID
+        SELECT @Id AS Id;
+    END
+    ELSE
+    BEGIN
+        -- Insert new record
+        INSERT INTO UserContent (UserId, Type, Content, CreatedAt, UpdatedAt)
+        VALUES (@UserId, @Type, @Content, GETUTCDATE(), NULL);
+
+        -- Return the new inserted ID
+        SELECT SCOPE_IDENTITY() AS Id;
+    END
+END;
 
 
 -----------User Post SP Ends --------------------

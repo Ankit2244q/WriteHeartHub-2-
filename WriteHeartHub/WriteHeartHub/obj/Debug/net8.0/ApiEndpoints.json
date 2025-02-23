@@ -11,8 +11,24 @@
   },
   {
     "ContainingType": "WriteHeartHub.Controllers.UserContentController",
+    "Method": "Delete",
+    "RelativePath": "api/UserContent/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WriteHeartHub.Controllers.UserContentController",
     "Method": "AddUserContent",
-    "RelativePath": "api/UserContent",
+    "RelativePath": "api/UserContent/InsertvsUpdate",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -25,6 +41,11 @@
       {
         "Name": "type",
         "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       }
     ],

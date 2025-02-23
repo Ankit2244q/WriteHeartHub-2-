@@ -29,3 +29,19 @@ A:\_Documents\Projects\WriteHeartHub(2)\WriteHeartHub\Application\obj\Debug\net8
 A:\_Documents\Projects\WriteHeartHub(2)\WriteHeartHub\Application\obj\Debug\net8.0\Application.pdb
 A:\_Documents\Projects\WriteHeartHub(2)\WriteHeartHub\Application\obj\Debug\net8.0\ref\Application.dll
 A:\_Documents\Projects\WriteHeartHub(2)\WriteHeartHub\Application\obj\Debug\net8.0\Application.sourcelink.json
+D:\Businness\WriteHeartHub-2-\WriteHeartHub\Application\bin\Debug\net8.0\Application.deps.json
+D:\Businness\WriteHeartHub-2-\WriteHeartHub\Application\bin\Debug\net8.0\Application.dll
+D:\Businness\WriteHeartHub-2-\WriteHeartHub\Application\bin\Debug\net8.0\Application.pdb
+D:\Businness\WriteHeartHub-2-\WriteHeartHub\Application\bin\Debug\net8.0\Core Doman.dll
+D:\Businness\WriteHeartHub-2-\WriteHeartHub\Application\bin\Debug\net8.0\Core Doman.pdb
+D:\Businness\WriteHeartHub-2-\WriteHeartHub\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+D:\Businness\WriteHeartHub-2-\WriteHeartHub\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Businness\WriteHeartHub-2-\WriteHeartHub\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+D:\Businness\WriteHeartHub-2-\WriteHeartHub\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+D:\Businness\WriteHeartHub-2-\WriteHeartHub\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+D:\Businness\WriteHeartHub-2-\WriteHeartHub\Application\obj\Debug\net8.0\Application.sourcelink.json
+D:\Businness\WriteHeartHub-2-\WriteHeartHub\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+D:\Businness\WriteHeartHub-2-\WriteHeartHub\Application\obj\Debug\net8.0\Application.dll
+D:\Businness\WriteHeartHub-2-\WriteHeartHub\Application\obj\Debug\net8.0\refint\Application.dll
+D:\Businness\WriteHeartHub-2-\WriteHeartHub\Application\obj\Debug\net8.0\Application.pdb
+D:\Businness\WriteHeartHub-2-\WriteHeartHub\Application\obj\Debug\net8.0\ref\Application.dll

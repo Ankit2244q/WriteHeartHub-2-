@@ -13,7 +13,9 @@ namespace Application.Interfaces
     {
         //   Task<IEnumerable<Shayri>> GetShayriListAsync();
         Task<List<UserContent>> GetAllShayriAsync();
-        Task<UserContent> AddUserShayriAsync(string content, int type);
+        Task<UserContent> AddUserShayriAsync(string content, int type,int? Id);
+
+        Task<UserContent> DeleteUserContentAsync(int id);
 
     }
 }

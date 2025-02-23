@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "PJcSNtgrwE7A70XfWcs4I/IP73wMGN/KUtnkkeArWto=",
+  "Hash": "9fgobZ2oN2dAcyamvZGq3o8ckl7rO5rBprNvspkTwUI=",
   "Source": "WriteHeartHub",
   "BasePath": "_content/WriteHeartHub",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

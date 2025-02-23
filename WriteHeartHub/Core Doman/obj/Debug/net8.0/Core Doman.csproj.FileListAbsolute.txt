@@ -22,3 +22,16 @@ A:\_Documents\Projects\WriteHeartHub(2)\WriteHeartHub\Core Doman\obj\Debug\net8.
 A:\_Documents\Projects\WriteHeartHub(2)\WriteHeartHub\Core Doman\obj\Debug\net8.0\ref\Core Doman.dll
 A:\_Documents\Projects\WriteHeartHub(2)\WriteHeartHub\Core Doman\obj\Debug\net8.0\Core Doman.csproj.AssemblyReference.cache
 A:\_Documents\Projects\WriteHeartHub(2)\WriteHeartHub\Core Doman\obj\Debug\net8.0\Core Doman.sourcelink.json
+D:\Businness\WriteHeartHub-2-\WriteHeartHub\Core Doman\bin\Debug\net8.0\Core Doman.deps.json
+D:\Businness\WriteHeartHub-2-\WriteHeartHub\Core Doman\bin\Debug\net8.0\Core Doman.dll
+D:\Businness\WriteHeartHub-2-\WriteHeartHub\Core Doman\bin\Debug\net8.0\Core Doman.pdb
+D:\Businness\WriteHeartHub-2-\WriteHeartHub\Core Doman\obj\Debug\net8.0\Core Doman.csproj.AssemblyReference.cache
+D:\Businness\WriteHeartHub-2-\WriteHeartHub\Core Doman\obj\Debug\net8.0\Core Doman.GeneratedMSBuildEditorConfig.editorconfig
+D:\Businness\WriteHeartHub-2-\WriteHeartHub\Core Doman\obj\Debug\net8.0\Core Doman.AssemblyInfoInputs.cache
+D:\Businness\WriteHeartHub-2-\WriteHeartHub\Core Doman\obj\Debug\net8.0\Core Doman.AssemblyInfo.cs
+D:\Businness\WriteHeartHub-2-\WriteHeartHub\Core Doman\obj\Debug\net8.0\Core Doman.csproj.CoreCompileInputs.cache
+D:\Businness\WriteHeartHub-2-\WriteHeartHub\Core Doman\obj\Debug\net8.0\Core Doman.sourcelink.json
+D:\Businness\WriteHeartHub-2-\WriteHeartHub\Core Doman\obj\Debug\net8.0\Core Doman.dll
+D:\Businness\WriteHeartHub-2-\WriteHeartHub\Core Doman\obj\Debug\net8.0\refint\Core Doman.dll
+D:\Businness\WriteHeartHub-2-\WriteHeartHub\Core Doman\obj\Debug\net8.0\Core Doman.pdb
+D:\Businness\WriteHeartHub-2-\WriteHeartHub\Core Doman\obj\Debug\net8.0\ref\Core Doman.dll
