@@ -10,3 +10,7 @@
 /WriteHeartHub/.vs
 /WriteHeartHub/WriteHeartHub/obj
 *.dll
+/WriteHeartHub/Application/obj
+/WriteHeartHub/Infrastructure/obj
+/WriteHeartHub/WriteHeartHub/obj
+/WriteHeartHub/WriteHeartHub/obj
