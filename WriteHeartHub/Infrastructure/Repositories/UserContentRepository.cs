@@ -22,7 +22,7 @@ namespace Infrastructure.Repositories
         }
 
        
-        public async Task<List<UserContent>> GetAllShayriAsync()  // ✅ Ensure correct return type
+        public async Task<List<UserContent>> GetAllContentAsync()  // ✅ Ensure correct return type
         {
             using (var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection")))
             {
@@ -63,7 +63,7 @@ namespace Infrastructure.Repositories
         #endregion
 
         /*--------- This method use for Insert Vs Update User Content -----------*/
-        public async Task<UserContent> AddUserShayriAsync(string content, int type, int? id = null)
+        public async Task<UserContent> AddUserContentAsync(string content, int type, int? id = null)
         {
             using (var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection")))
             {

@@ -12,8 +12,8 @@ namespace Application.Interfaces
     public interface IUserContentRepository
     {
         //   Task<IEnumerable<Shayri>> GetShayriListAsync();
-        Task<List<UserContent>> GetAllShayriAsync();
-        Task<UserContent> AddUserShayriAsync(string content, int type,int? Id);
+        Task<List<UserContent>> GetAllContentAsync();
+        Task<UserContent> AddUserContentAsync(string content, int type,int? Id);
 
         Task<UserContent> DeleteUserContentAsync(int id);
 
